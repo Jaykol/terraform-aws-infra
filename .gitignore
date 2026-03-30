@@ -1,0 +1,10 @@
+# Terraform state — contains sensitive infrastructure details
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Variable files with secrets
+terraform.tfvars
+
+# Crash logs
+crash.log
